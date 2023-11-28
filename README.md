@@ -10,7 +10,7 @@ pip install ftfy regex tqdm
 pip install git+https://github.com/openai/CLIP.git
 pip install scikit-learn
 ```
-https://drive.google.com/file/d/12V8kzt5nv3AyoK_wZldQNeJ5lgqnhxmL/view?usp=sharing
+
 
 ## Preparing Datasets
 
@@ -23,11 +23,11 @@ unzip human_activity_retrieval_dataset.zip
 
 ## Trained Model
 
-Weights of the trained model i.e. MLP is provided in the `MLP.pt`  file
+Weights of the trained model i.e. MLP can be downloaded from [here](https://drive.google.com/file/d/12V8kzt5nv3AyoK_wZldQNeJ5lgqnhxmL/view?usp=sharing) 
 
 ## Encode Images and Text
 
-1) `train.npy` : It has CLIp Space Image embeddings of train images 
+1) `train.npy` : It has CLIp Space Image embeddings of train images . PLease download it from [here](https://drive.google.com/file/d/1wjKJS2bY03_sO0Xw9VOe3DplwJXaBaqM/view?usp=sharing)
 2) `query_images.npy` : It has CLIP Space Image embeddings of query images
 3) `gallery.npy`: It has CLIP Space Image embeddings of gallery images
 4) `Actions.npy`: It has CLIP Space text embeddings of the 15 labels
